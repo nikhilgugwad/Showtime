@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap");
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 2rem 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+
+  .container {
+    max-width: 1660px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .copyright {
+    margin-bottom: 1rem;
+  }
+
+  .made-by {
+    .author {
+      color: red;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+
+      &:hover {
+        border-color: red;
+      }
+    }
+  }
+}
